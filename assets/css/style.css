@@ -1,30 +1,43 @@
 /* ---------------------------------------------- /*
  * Fonts
 /* ---------------------------------------------- */
+
 @font-face {
-	font-family: 'Masterblush-regular';
-	src: url('../fonts/Masterblush-Regular.eot');
-	src: url('../fonts/Masterblush-Regular.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Masterblush-Regular.woff2') format('woff2'),
-		url('../fonts/Masterblush-Regular.woff') format('woff'),
-		url('../fonts/Masterblush-Regular.ttf') format('truetype');
+	font-family: 'Santorini';
+	src: url('../fonts/santorini.eot');
+	src: url('../fonts/santorini.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/santorini.woff2') format('woff2'),
+		url('../fonts/santorini.woff') format('woff'),
+		url('../fonts/santorini.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Masterblush-alt';
-	src: url('../fonts/Masterblush-Alt.eot');
-	src: url('../fonts/Masterblush-Alt.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Masterblush-Alt.woff2') format('woff2'),
-		url('../fonts/Masterblush-Alt.woff') format('woff'),
-		url('../fonts/Masterblush-Alt.ttf') format('truetype');
+	font-family: 'Montserrat Regular';
+	src: url('../fonts/montserrat-regular.eot');
+	src: url('../fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/montserrat-regular.woff2') format('woff2'),
+		url('../fonts/montserrat-regular.woff') format('woff'),
+		url('../fonts/montserrat-regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Montserrat Light';
+	src: url('../fonts/montserrat-light.eot');
+	src: url('../fonts/montserrat-light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/montserrat-light.woff2') format('woff2'),
+		url('../fonts/montserrat-light.woff') format('woff'),
+		url('../fonts/montserrat-light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 body {
-	font: 300 14px/1.8 'Courier New', monotype;
+	font: 300 14px/1.8 'Montserrat Regular', monotype;
 	color: #333;
 	overflow-x: hidden;
 	margin: 0;
@@ -85,7 +98,7 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 'Courier New', monotype;
+	font: 700 40px/1.2 'Montserrat Regular', monotype;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -190,7 +203,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .btn {
-	font-family: 'Courier New', monotype;
+	font-family: 'Montserrat Regular', monotype;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -292,7 +305,7 @@ textarea.form-control {
 }
 
 .pfblock-title{
-    font-family: 'Courier New', monospace;
+    font-family: 'Montserrat Regular', monospace;
 	color: #333333;
 	text-transform: none;
 	font-weight: normal;
@@ -301,7 +314,7 @@ textarea.form-control {
 }
 
 .pfblock-subtitle {
-	font-family: 'Courier New', monospace;
+	font-family: 'Montserrat Regular', monospace;
 	letter-spacing: 0px;
 	font-style: normal;
 	color: #333333;
@@ -406,7 +419,7 @@ textarea.form-control {
 }
 
 .story h2 {
-	font-family: 'Courier New', monospace;
+	font-family: 'Montserrat Regular', monospace;
 	text-transform: lowercase;
 	font-weight: normal;
 	letter-spacing: 0px;
@@ -424,10 +437,10 @@ textarea.form-control {
 
 
 .ourstory-desc{
-	font-family: 'Masterblush-alt';
-	line-height: 100px;
-    margin-bottom: 30px;
-    font-size: 80px;
+	font-family: 'Santorini';
+	line-height: 250px;
+    margin-bottom: -60px;
+    font-size: 100px;
     color: #fff;
 }
 
@@ -438,7 +451,7 @@ textarea.form-control {
     color: #333;
 	padding: 15px 56px;
 	margin-top: 20px;
-	font-family: 'Courier New', monospace;
+	font-family: 'Montserrat Regular', monospace;
 	font-size: 22px;
 	margin-left: -10px;
 }
@@ -472,7 +485,7 @@ textarea.form-control {
 .iconbox-title {
 	margin: 0 0 15px;
 	padding: 0;
-	font-family: 'Courier New', monospace;
+	font-family: 'Montserrat Regular', monospace;
 	font-size: 19px;
 	text-transform: lowercase;
 	font-weight: normal;
@@ -480,7 +493,7 @@ textarea.form-control {
 }
 
 .iconbox-desc {
-	font-family: 'Courier New', monospace;	
+	font-family: 'Montserrat Regular', monospace;	
 	font-size: 16px;
 	color: #333;
 }
@@ -490,7 +503,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 .sub-header {
 	text-align: center;
-	font-family: 'Courier New', monospace;
+	font-family: 'Montserrat Regular', monospace;
 	text-transform: none;
 	font-weight: normal;
 	letter-spacing: 0px;
@@ -520,7 +533,7 @@ textarea.form-control {
  * RSVP
 /* ---------------------------------------------- */
 .rsvp-title {
-	font-family: 'Masterblush-alt';
+	font-family: 'Santorini';
 	font-size: 150px;
 	text-transform: none;
 	font-weight: normal;
@@ -601,7 +614,7 @@ textarea.form-control {
 	color: #222;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-family: 'Courier New', monospace;
+	font-family: 'Montserrat Regular', monospace;
 }
 
 .navbar-custom .nav li.active,
@@ -614,11 +627,11 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-brand {
-	font-size: 40px;
-    font-family: 'Masterblush-alt';
+	font-size: 32px;
+    font-family: 'Santorini';
 	text-decoration: none;
 	text-transform: none;
-	padding-top: 17px;
+	padding-top: 30px;
 }
 
 .left{
