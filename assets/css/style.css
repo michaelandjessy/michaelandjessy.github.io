@@ -50,7 +50,7 @@ img {
 }
 
 a {
-	color: #b260ad;
+	color: #869DB8;
 	text-decoration: underline;
 }
 
@@ -623,7 +623,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #b260ad;
+	color: #869DB8;
 }
 
 .navbar-custom .navbar-brand {
@@ -923,9 +923,9 @@ textarea.form-control {
 .grid figure figcaption,
 .grid figure figcaption > a {
 	position: absolute;
-	top: -10px;
-	left: 0;
-	width: 100%;
+	top: -15px;
+	left: -23px;
+	width: 120%;
 	height: 100%;
 	margin: auto;
 	text-align: center;
@@ -969,7 +969,7 @@ figure.effect-bubba {
 }
 
 figure.effect-bubba img {
-	opacity: 0.8;
+	opacity: 1;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
@@ -997,7 +997,7 @@ figure.effect-bubba p {
 	opacity: 0;
 	color: #333;
 	font-size: 13px;
-	line-height: 12.5px;
+	line-height: 13px;
 	text-transform: none;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -1020,9 +1020,9 @@ figure.effect-bubba:hover p {
 }
 
 .people-title {
-	font-size: 16px !important;
+	font-size: 18px !important;
 	margin-top: 0px !important;
 	margin-bottom: 10px !important;
-	letter-spacing: -1px !important;
-	line-height: 14px !important;
+	letter-spacing: 0px !important;
+	line-height: 17px !important;
 }
