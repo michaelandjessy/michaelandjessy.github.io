@@ -305,12 +305,13 @@ textarea.form-control {
 }
 
 .pfblock-title{
-    font-family: 'Montserrat Regular', monospace;
+    font-family: 'Santorini', monospace;
 	color: #333333;
 	text-transform: none;
 	font-weight: normal;
-	font-size: 36px;
+	font-size: 80px;
 	letter-spacing: 0px;
+	margin-top: 50px;
 }
 
 .pfblock-subtitle {
