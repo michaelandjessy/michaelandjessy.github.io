@@ -292,7 +292,7 @@ textarea.form-control {
 
 .pfblock-header {
 	text-align: center;
-	margin: 0 0 60px;
+	margin: 0 0 30px;
 }
 
 .pfblock-header-left {
@@ -322,10 +322,21 @@ textarea.form-control {
 	font-size: 16px;
 }
 
+.pfblock-capstitle {
+	font-family: 'Montserrat Regular', monospace;
+	letter-spacing: 0px;
+	font-style: normal;
+	color: #333333;
+	font-size: 20px;
+	text-transform: lowercase;
+	font-weight: bold;
+}
+
 .pfblock-line {
 	background: #eeeeee;
 	width: 100px;
 	height: 1px;
+	margin-top: -40px;
 	margin: 30px auto;
 }
 
@@ -478,7 +489,7 @@ textarea.form-control {
 }
 
 .iconbox-icon {
-	margin: 0 0 15px;
+	margin: 0 0px 15px;
 	font-size: 32px;
 	color: #222;
 }
@@ -811,11 +822,11 @@ textarea.form-control {
 	}
 	
 	.pfblock-title {
-		font-size: 25px;
+		font-size: 80px;
 	}
 	
 	.pfblock-subtitle {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.iconbox-desc {
@@ -827,7 +838,7 @@ textarea.form-control {
 	}
 	
 	.sub-header {
-		font-size: 20px;
+		font-size: 30px;
 	}
 	
 	.bridal-pics-container {
