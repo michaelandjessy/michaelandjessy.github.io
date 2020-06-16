@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-	color: #81476e;
+	color: #D0D6E0;
 }
 
 /* ---------------------------------------------- /*
@@ -440,27 +440,27 @@ textarea.form-control {
 
 .ourstory-desc{
 	font-family: 'Santorini';
-	line-height: 250px;
+	margin-top: 40px;
     margin-bottom: -60px;
     font-size: 100px;
     color: #fff;
 }
-
 
 .story-btn {
 	text-align: center;
 	background: #fafafa;
     color: #333;
 	padding: 15px 56px;
-	margin-top: 20px;
+	margin-top: 60px;
 	font-family: 'Montserrat Regular', monospace;
 	font-size: 22px;
 	margin-left: -10px;
+	position: relative;
 }
 
 .story-btn:hover {
 	color: #333;
-	background: #faeaff;
+	background: #D0D6E0;
 }
 
 .long-down {
@@ -760,10 +760,10 @@ textarea.form-control {
 }
 
 #status {
-	background-image: url(../images/preloader.gif);
+	background-image: url(../images/preloader.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 150px;
 	left: 50%;
 	margin: -100px 0 0 -100px;
 	position: absolute;
