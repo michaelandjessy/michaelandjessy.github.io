@@ -311,7 +311,8 @@ textarea.form-control {
 	font-weight: normal;
 	font-size: 80px;
 	letter-spacing: 0px;
-	margin-top: 50px;
+	padding-top: 50px;
+	margin-bottom: -30px;
 }
 
 .pfblock-subtitle {
@@ -322,21 +323,10 @@ textarea.form-control {
 	font-size: 16px;
 }
 
-.pfblock-capstitle {
-	font-family: 'Montserrat Regular', monospace;
-	letter-spacing: 0px;
-	font-style: normal;
-	color: #333333;
-	font-size: 20px;
-	text-transform: lowercase;
-	font-weight: bold;
-}
-
 .pfblock-line {
 	background: #eeeeee;
 	width: 100px;
 	height: 1px;
-	margin-top: -40px;
 	margin: 30px auto;
 }
 
@@ -788,22 +778,22 @@ textarea.form-control {
 
 @media (max-width: 768px) {
 
-	.ourstory-desc{
-		font-family: 'Masterblush-alt';
+/*	.ourstory-desc{
+		font-family: 'Santorini';
 		line-height: 70px;
 	    margin-bottom: 30px;
-	    font-size: 50px;
+	    font-size: 80px;
 	    color: #fff;
-	}
+	}*/
 	
-	.story h2 {
+/*	.story h2 {
 		font-size: 16px;
-	}
+	}*/
 	
-	.story-btn {
+/*	.story-btn {
 		padding: 15px 70px;
 		font-size: 16px;
-	}
+	}*/
 
 	h1 {
 		font-size: 34px;
