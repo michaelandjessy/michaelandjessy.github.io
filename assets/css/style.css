@@ -826,28 +826,29 @@ textarea.form-control {
 		font-size: 16px;
 	}
 
-/*	h1 {
-		font-size: 34px;
-		letter-spacing: 3px;
+	h1 {
+		font-size: 30px;
+/*		letter-spacing: 3px;*/
 	}
 
 	h2 {
-		font-size: 24px;
+		font-size: 20px;
 		margin: 0 0 30px;
-		letter-spacing: 3px;
+/*		letter-spacing: 3px;*/
 	}
+	
 
 	.rsvp-title {
-		font-size: 135px;
+		font-size: 120px;
 		padding-top: 20px;
 	}
 
 	.pfblock-title {
-		font-size: 80px;
+		font-size: 60px;
 	}
 
 	.pfblock-subtitle {
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 	.iconbox-desc {
@@ -855,12 +856,12 @@ textarea.form-control {
 	}
 
 	a {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	.sub-header {
-		font-size: 30px;
-	}*/
+		font-size: 26px;
+	}
 	
 	.bridal-pics-container {
 		margin: auto;
