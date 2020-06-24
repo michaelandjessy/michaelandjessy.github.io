@@ -458,7 +458,7 @@ textarea.form-control {
 
 .ourstory-desc {
 	font-family: 'Santorini';
-    margin-bottom: -110px;
+    margin-bottom: -80px;
     font-size: 150px;
     color: #fff;
 }
@@ -807,7 +807,6 @@ textarea.form-control {
 @media (max-width: 768px) {
 
 	.ourstory-desc{
-		font-family: 'Arial';
 		font-size: 80px;
 	    color: #fff;
 	}
