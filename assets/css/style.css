@@ -569,12 +569,12 @@ textarea.form-control {
 	font-weight: normal;
 	letter-spacing: 0px;
 	margin-top: 30px;
-	margin-bottom: -60px;
+	margin-bottom: -80px;
 	color: #333;
 }
 
 .rsvp-bg {
-/*	background: url(../images/rsvp2.png);*/
+	background: url(../images/rsvp2.png);
 	background-repeat: no-repeat;
 	background-position: 85% 100%;
 	-webkit-background-size: cover;
@@ -808,7 +808,7 @@ textarea.form-control {
 
 	.ourstory-desc{
 		font-family: 'Santorini';
-		font-size: 80px;
+		font-size: 70px;
 	    color: #fff;
 	}
 	
