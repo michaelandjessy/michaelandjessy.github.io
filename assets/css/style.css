@@ -427,23 +427,33 @@ textarea.form-control {
 	letter-spacing: 0px;
 	font-size: 30px;
 	color: #fff;
-	margin-bottom: 0px;
-	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-top: 0px;
 }
 
 .story-container {
 	position: relative;
-	top: 50%;
+	top: 60%;
 	transform: translateY(-50%);
 }
 
 
-.ourstory-desc{
+.ourstory-desc {
 	font-family: 'Santorini';
-	margin-top: 300px;
-    margin-bottom: -60px;
-    font-size: 200px;
+    margin-bottom: -110px;
+    font-size: 150px;
     color: #fff;
+}
+
+.ourstory-date {
+	font-family: 'Montserrat Regular', monospace;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-size: 40px;
+	letter-spacing: 5px;
+	color: #fff;
+	margin-bottom: 10px;
+	margin-top: 0px;
 }
 
 .story-btn {
@@ -451,10 +461,10 @@ textarea.form-control {
 	background: #fafafa;
     color: #333;
 	padding: 15px 56px;
-	margin-top: 60px;
+	margin-top: 20px;
 	font-family: 'Montserrat Regular', monospace;
 	font-size: 22px;
-	margin-left: -10px;
+/*	margin-left: -10px;*/
 	position: relative;
 }
 
@@ -540,13 +550,13 @@ textarea.form-control {
 	text-transform: none;
 	font-weight: normal;
 	letter-spacing: 0px;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: -60px;
 	color: #333;
 }
 
 .rsvp-bg {
-	background-color: #d5bbde;
-	background: url(../images/rsvp2.png);
+/*	background: url(../images/rsvp2.png);*/
 	background-repeat: no-repeat;
 	background-position: 85% 100%;
 	-webkit-background-size: cover;
@@ -778,24 +788,27 @@ textarea.form-control {
 
 @media (max-width: 768px) {
 
-/*	.ourstory-desc{
+	.ourstory-desc{
 		font-family: 'Santorini';
-		line-height: 70px;
-	    margin-bottom: 30px;
-	    font-size: 80px;
+		font-size: 100px;
 	    color: #fff;
-	}*/
+	}
 	
-/*	.story h2 {
-		font-size: 16px;
-	}*/
+	.ourstory-date{
+		margin-top: 80px;
+		font-size: 32px;
+	}
+
+	.story h2 {
+		font-size: 25px;
+	}
 	
-/*	.story-btn {
+	.story-btn {
 		padding: 15px 70px;
 		font-size: 16px;
-	}*/
+	}
 
-	h1 {
+/*	h1 {
 		font-size: 34px;
 		letter-spacing: 3px;
 	}
@@ -805,20 +818,20 @@ textarea.form-control {
 		margin: 0 0 30px;
 		letter-spacing: 3px;
 	}
-	
+
 	.rsvp-title {
 		font-size: 135px;
 		padding-top: 20px;
 	}
-	
+
 	.pfblock-title {
 		font-size: 80px;
 	}
-	
+
 	.pfblock-subtitle {
 		font-size: 16px;
 	}
-	
+
 	.iconbox-desc {
 		font-size: 14px;
 	}
@@ -826,10 +839,10 @@ textarea.form-control {
 	a {
 		font-size: 14px;
 	}
-	
+
 	.sub-header {
 		font-size: 30px;
-	}
+	}*/
 	
 	.bridal-pics-container {
 		margin: auto;
