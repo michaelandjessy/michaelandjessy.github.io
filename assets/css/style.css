@@ -425,7 +425,7 @@ textarea.form-control {
 	text-transform: lowercase;
 	font-weight: normal;
 	letter-spacing: 0px;
-	font-size: 20px;
+	font-size: 30px;
 	color: #fff;
 	margin-bottom: 0px;
 	margin-top: 20px;
@@ -440,9 +440,9 @@ textarea.form-control {
 
 .ourstory-desc{
 	font-family: 'Santorini';
-	margin-top: 40px;
+	margin-top: 300px;
     margin-bottom: -60px;
-    font-size: 100px;
+    font-size: 200px;
     color: #fff;
 }
 
@@ -546,7 +546,7 @@ textarea.form-control {
 
 .rsvp-bg {
 	background-color: #d5bbde;
-	background: url(../images/rsvp.png);
+	background: url(../images/rsvp2.png);
 	background-repeat: no-repeat;
 	background-position: 85% 100%;
 	-webkit-background-size: cover;
