@@ -50,12 +50,12 @@ img {
 }
 
 a {
-	color: #869DB8;
+	color: #949DBE;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #D0D6E0;
+	color: #E2DDDD;
 }
 
 /* ---------------------------------------------- /*
@@ -488,7 +488,7 @@ textarea.form-control {
 
 .story-btn:hover {
 	color: #333;
-	background: #D0D6E0;
+	background: #E2DDDD;
 }
 
 .long-down {
@@ -575,7 +575,7 @@ textarea.form-control {
 
 .rsvp-bg {
 /*	background: url(../images/rsvp2.png);*/
-	background-color: #EFEFF7;
+	background-color: #E8EBF8;
 	background-repeat: no-repeat;
 	background-position: 100% 100%;
 	-webkit-background-size: cover;
@@ -654,7 +654,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #869DB8;
+	color: #949DBE;
 }
 
 .navbar-custom .navbar-brand {
@@ -703,7 +703,7 @@ textarea.form-control {
 	position: fixed;
 	display: none;
 	z-index: 999;
-	bottom: 2em;
+	bottom: 3em;
 	right: 2em;
 }
 
@@ -721,7 +721,7 @@ textarea.form-control {
 .scroll-up a:hover,
 .scroll-up a:active {
 /*	background-color: rgba(235, 235, 235, .8);*/
-	background-color: #faeaff;
+	background-color: #fff;
 	color: #333;
 }
 
@@ -829,13 +829,11 @@ textarea.form-control {
 
 	h1 {
 		font-size: 30px;
-/*		letter-spacing: 3px;*/
 	}
 
 	h2 {
 		font-size: 20px;
 		margin: 0 0 30px;
-/*		letter-spacing: 3px;*/
 	}
 	
 
