@@ -703,7 +703,7 @@ textarea.form-control {
 	position: fixed;
 	display: none;
 	z-index: 999;
-	bottom: 3em;
+	bottom: 4em;
 	right: 2em;
 }
 
