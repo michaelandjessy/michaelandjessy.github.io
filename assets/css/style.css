@@ -576,7 +576,7 @@ textarea.form-control {
 .rsvp-bg {
 	background: url(../images/rsvp2.png);
 	background-repeat: no-repeat;
-	background-position: 85% 100%;
+	background-position: 100% 100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
