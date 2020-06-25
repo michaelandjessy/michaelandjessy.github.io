@@ -665,7 +665,7 @@ textarea.form-control {
 	padding-top: 30px;
 }
 
-.left{
+/*.left{
 	font-family: 'Storybook Left';
 	display: inline;
 }
@@ -673,7 +673,7 @@ textarea.form-control {
 .right{
 	font-family: 'Storybook Right';
 	display: inline;
-}
+}*/
 
 .navbar-custom .dropdown-menu {
 	border: 0;
