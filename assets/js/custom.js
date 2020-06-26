@@ -1,7 +1,4 @@
 (function($){
-	
-	console.log("Built with love by Jeanette & David");
-	console.log("Photos by Geoffrey Wong Photography - www.geoffcwong.com");
 
 	/* ---------------------------------------------- /*
 	 * Preloader
@@ -71,7 +68,7 @@
 		/* ---------------------------------------------- */
 
 		wow = new WOW({
-			mobile: false
+			mobile: true
 		});
 		wow.init();
 
