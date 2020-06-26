@@ -68,7 +68,7 @@
 		/* ---------------------------------------------- */
 
 		wow = new WOW({
-			mobile: true
+			mobile: false
 		});
 		wow.init();
 
